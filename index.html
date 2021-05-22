@@ -2,166 +2,490 @@
 <html lang="en">
 
 <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <title>My Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <title>Perfect Cup</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/business-casual.css" rel="stylesheet">
-
-    <!-- Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <div class="brand">Perfect Cup</div>
-    <div class="address-bar">Unit - 8, World Trade Center, EON Free Zone, Pune, Maharashtra 411004</div>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
- <!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Business Casual</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="blog.html">Blog</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/v2.jpg" alt="" class="img-fluid rounded-square">
+        <h1 class="text-light"><a href="index.html">Vivek Paralikar</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://www.linkedin.com/in/vivek-paralikar-bba195175/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+		  <a href="https://github.com/VivekParalikar" target="_blank" class="google-plus"><i class="bx bxl-github"></i></a>
+		  <a href="https://twitter.com/ParalikarVivek" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100012130153914" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/vivek_paralikar_/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+           
         </div>
-        <!-- /.container -->
-    </nav>
+      </div>
 
-    <div class="container">
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
 
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12 text-center">
-                    <div id="carousel-example-generic" class="carousel slide">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators hidden-xs">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        </ol>
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
-                            </div>
-                        </div>
-
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                            <span class="icon-prev"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                            <span class="icon-next"></span>
-                        </a>
-                    </div>
-                    <h2 class="brand-before">
-                        <small>Welcome to</small>
-                    </h2>
-                    <h1 class="brand-name">Perfect Cup</h1>
-                    <hr class="tagline-divider">
-                    <h2>
-                        <small>By
-                            <strong>Vivek Paralikar</strong>
-                        </small>
-                    </h2>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">HOW TO MAKE 
-                        <strong>THE PERFECT CUP OF COFFEE</strong>
-                    </h2>
-                    <hr>
-                    <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
-                    <hr class="visible-xs">
-                    <p>Making the perfect cup of coffee can be challenging! With so many unique flavours and recipes to choose from,
-					where do you begin? Our website provides you with the best recipes from around the world. Whether you prefer your
-					coffee hot and mild or bracingly cold and strong - we are sure to have what you are looking for. For access to unlimited 
-					recipes you must register! Registration is free. Click here to get started! <a href="https://en.wikipedia.org/wiki/Coffee_cup" target="_blank">To See a Coffee_cup</a> </p>
-                </div>
-            </div>
-        </div>
+        </ul>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
     </div>
-    <!-- /.container -->
+  </header><!-- End Header -->
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Vivek Paralikar</p>
-                </div>
-            </div>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Vivek Paralikar</h1>
+      <p>I'm <span class="typed" data-typed-items="Designer, Developer, Electronics Engineer, Photographer"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>	I am Vivek Paralikar, I have recently graduated in Electronics & Telecommunication Engineering from Shri Guru Gobind Singhji Institute of Engineering and Technology and  I am 
+				currently looking to apply my knowledge and skills in an organization of repute. As a qualified Electronics Engineer, I am adept in application development & enhancement 
+				and believe that will prove to be an asset for the company. And Have Some Experience in Web Development with known languages like Html, CSS, javascript, bootstrap, and jQuery.
+				And I also know the clouding process for websites. With all these web development skills I'm also familiar with databases like MySQL, PHP, and XML|Ajax.</p>
         </div>
-    </footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/v2.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Electronics Engineer &amp; Web Developer.</h3>
+            <p class="font-italic">
+				To work hard with full dedication for the achievement of organization objective that will enhance my knowledge and career.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 13 April 1998</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Website:</strong><a href="perfectcup/index.html"> Click here for my website</a></li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> 9767930879</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Akola, Maharashtra</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 23</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> B.tech</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>PhEmailone:</strong> vivekparalikar72@gmail.com</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Open to Job:</strong> Available</li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              I am available for work, starting immediately, for full-time or part-time. And available for both in city or remote.
+			  I am available to work Monday through Friday, and I am very flexible about the start and end times on those days. 
+			  I'm willing to make occasional additional hours work with my schedule. I really value my weekend time with my family. 
+			  I'm more than willing to go above and beyond during the standard work week
+            </p>
+          </div>
+        </div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+      </div>
+    </section><!-- End About Section -->
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
+    
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Skills are what makes you confident and independent in life and are essential for success. It might take determination and practice, but almost any skill can be learned or improved.</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+			
+			<div class="progress">
+              <span class="skill">C language <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+			
+			<div class="progress">
+              <span class="skill">C++ <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+			
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+			
+			<div class="progress">
+              <span class="skill">Bootstrap <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+			
+			<div class="progress">
+              <span class="skill">MySQL <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+			
+			<div class="progress">
+              <span class="skill">jQuery <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+			
+			<div class="progress">
+              <span class="skill">Matlab <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+			
+            <div class="progress">
+              <span class="skill">PHP <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">WordPress <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">MS-Office <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume </h2>
+          <p>It describes the candidate's relevant experience, skills, and achievements.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Vivek Paralikar</h4>
+              <p><em>I have recently graduated in Electronics & Telecommunication Engineering from Shri Guru Gobind Singhji Institute of Engineering 
+			  and Technology and I am currently looking to apply my knowledge and skills in an organization of repute. As a qualified Electronics Engineer, I am adept in application 
+			  development & enhancement and believe that will prove to be an asset for the company.</em></p>
+              <ul>
+                <li>Akola, Maharashtra</li>
+                <li>(+91) 9767930879</li>
+                <li>vivekparalikar72@gmail</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Electronics and Telecommunication(B.tech)</h4>
+              <h5>2016 - 2020</h5>
+              <p><em>Shri Guru Gobind Singhji Institute of Engineering and Technology</em></p>
+              <p>CGPA = 6.42/10 (64.20%)</p>
+            </div>
+			
+			<div class="resume-item">
+              <h4>HSC</h4>
+              <h5>2015 - 2016</h5>
+              <p><em>S. N. College of Arts and Science </em></p>
+              <p>Percentage = 69.80%</p>
+            </div>
+			
+            <div class="resume-item">
+              <h4>SSC</h4>
+              <h5>2013 - 2014</h5>
+              <p><em>B.K.V. Highschool </em></p>
+              <p>Percentage = 87.20%</p>
+            </div>
+		  </div>
+		  
+		  
+		  
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Wrok Experience</h3>
+            <div class="resume-item">
+              <h4>Boston consultant group (Internship)</h4>
+              <h5>April 19 - June 19(2020)</h5>
+              <p><em>Open-Access Digital Transformation Virtual Experience Program </em></p>
+              <ul>
+                <li>Market Research.</li>
+                <li>User Case Development / Prioritization.</li>
+                <li>Economics.</li>
+                <li>Scaling.</li>
+              </ul>
+            </div>
+			
+            <div class="resume-item">
+              <h4>General Electric Company(Internship)</h4>
+              <h5>June 25 - September 25(2020)</h5>
+              <p><em>Human Resources Intern </em></p>
+              <ul>
+                <li>Give constructive feedback to motivate, change and inspire</li>
+                <li>Learn about Lean Mindset</li>
+                <li>Practice Lean Principles to Improve Processes Coach a leader on Compensation & Benefits approach</li>
+              </ul>
+            </div>
+			
+			<h3 class="resume-title">Projects</h3>
+            <div class="resume-item">
+              <h4>Object Detection using Ultra Sonic Sensor and Arduino.</h4>
+              <h5>Jan 2019 - April 2019</h5>
+              <p><em>	This Robot measures distance without
+						actual contact. This is an efficient way to measure
+						small distances precisely. Arduino is a pocket-size
+						computer that is used to control the physical
+						world which cannot be performed by your
+						desktop. An ultrasonic sensor generates highfrequency sound (ultrasound) waves. When this
+						ultrasound hits the object, it reflects as echo
+						which is sensed by the receiver as shown in the
+						below figure.</em></p>
+              
+            </div>
+			
+			<div class="resume-item">
+              <h4>My Website.</h4>
+              <h5>April 2021</h5>
+              <p><em>I created a website using Html, CSS, JavaScript, Bootstrap, jQuery, php, MySQL and XML|Ajax</em></p>
+			  <p><a href="https://vivekparalikar.github.io/"> https://vivekparalikar.github.io/</a></p>
+              
+            </div>
+			
+			
+			
+          </div>
+        </div>
+		<h3><a href="https://drive.google.com/file/d/1Jq365shJIb4k2piNbCUgqPQ1NOm1yIxA/view?usp=sharing" target="_blank">Get my CV here</a></h3>
+      </div>
+    </section><!-- End Resume Section -->
+
+	<!-- ======= workshop Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>WorkShop & Extra Curricular</h2>
+          <p>	Workshop is a usually brief intensive educational program for a relatively small group of people that focuses especially on techniques 
+		  and skills in a particular field.An extracurricular is any activity you participate in outside of class. It can be associated with your school, 
+		  such as a sports team or club, or completely separate</p>
+        </div>
+
+        <div class="row">
+          
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <p class="font-italic">
+				To work hard with full dedication for the achievement of organization objective that will enhance my knowledge and career.
+            </p>
+            <div class="row">
+              <div class="col-lg-12">
+			  <p><b>Workshop</b></p>
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Artificial intelligence in matlab</strong></li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Sixth sense technology using matlab.</strong></li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Participated in one day technical workshop on “i- PRO PROGRAM STRESSING SUCCESS” ____by government of Maharashtra</strong></li>
+                </ul>
+              </div>
+			  <div class="col-lg-12">
+              <p><b>Extra Curricular</b></p>
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>-Coordinator of EXTC Department of Team VIBRANT 2019</strong></li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Joint Coordinator of Event Affairs Committee of PRAGYAA 2018</strong></li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Volunteer of Event Affairs Committee of PRAGYAA 2017</strong></li>
+				  <li><i class="icofont-rounded-right"></i> <strong>Participated in “Chess” organized by ZENITH-2018</strong></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End workshop Section -->
+	
+	
+   
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Please take a minute to go through the attached CV for your consideration. It would be a pleasure if I can hear back from you regarding any Job profile</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>Shivaji Nagar, Old city, Akola, Maharashtra, 444002</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>vivekparalikar72@gmail</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p>+91 9767930879</p>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7464.10308998266!2d76.98493407482015!3d20.708131394691485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd731933644e849%3A0x85e9710770093cfb!2sShivaji%20Nagar%2C%20Akola%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1621666722915!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Vivek Paralikar</span></strong>
+      </div>
+      <div class="credits">
+       Designed by <a href="#">Vivek Paralikar</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
